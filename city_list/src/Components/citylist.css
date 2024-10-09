@@ -20,6 +20,7 @@
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    color: black;
     background-color: white;
 }
 
@@ -39,8 +40,9 @@
 }
 
 .city-list {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin: 0; 
 }
 
 .city-item {
