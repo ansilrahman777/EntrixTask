@@ -1,0 +1,53 @@
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #c2c7ca;
+}
+
+.city-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 90%;
+    margin-right: 5px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.submit-btn {
+    padding: 10px;
+    width: 100px;
+    background-color: #3e8a94;
+    color: rgb(255, 254, 254); 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.error-msg {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+}
+
+.city-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #a5b2b6;
+    color: black; 
+}
